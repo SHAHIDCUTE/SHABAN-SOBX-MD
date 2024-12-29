@@ -6,12 +6,12 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "enter your session",
-    CAPTION: process.env.CAPTION || "POWERED BY MRSHABAN432",
+    SESSION_ID: process.env.SESSION_ID || "SHABAN-SOBX-MD~qEoylR5C#6EqDyMF6EL_NDqzGmTXpiX9laybfE5I0fjsfj-08dtI",
+    CAPTION: process.env.CAPTION || "SHAHID KING 💔👑",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "true",
-    READ_MESSAGE: process.env.READ_MESSAGE || "true", // Added auto-read configuration
-    MODE: process.env.MODE || "public",
+    READ_MESSAGE: process.env.READ_MESSAGE || "false", // Added auto-read configuration
+    MODE: process.env.MODE || "pervite",
     AUTO_VOICE: process.env.AUTO_VOICE || "true",
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -20,14 +20,14 @@ module.exports = {
     ANTI_LINK: process.env.ANTI_LINK || "true",
     ANTI_BAD: process.env.ANTI_BAD || "true",
     PREFIX: process.env.PREFIX || ".",
-    FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
+    FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
     FAKE_TYPING: process.env.FAKE_TYPING || "false",
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
     AUTO_REACT: process.env.AUTO_REACT || "true",
     HEART_REACT: process.env.HEART_REACT || "true",
     OWNER_REACT: process.env.OWNER_REACT || "true",
-    BOT_NAME: process.env.BOT_NAME || "ᴍʀ_sʜᴀʙᴀɴ",
+    BOT_NAME: process.env.BOT_NAME || "SHAHID KING",
     STATUS_REPLY: process.env.STATUS_REPLY || "`ʏᴏᴜʀ sтαтυs sεεη נυsт ησω`",
     OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
